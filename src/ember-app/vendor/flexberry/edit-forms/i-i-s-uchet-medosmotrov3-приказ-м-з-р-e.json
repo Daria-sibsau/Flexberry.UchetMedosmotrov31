@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Приказ МЗР",
+  "name": "IISUchetMedosmotrov3ПриказМЗРE",
+  "className": "ПриказМЗРE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-uchet-medosmotrov3-приказ-м-з-р",
+      "modelProjection": "ПриказМЗРE"
+    }
+  ]
+}

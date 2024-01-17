@@ -1,0 +1,54 @@
+﻿{
+  "name": "IISUchetMedosmotrov3КлассВредФакт",
+  "modelName": "i-i-s-uchet-medosmotrov3-класс-вред-факт",
+  "className": "КлассВредФакт",
+  "nameSpace": "IIS.UchetMedosmotrov3",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КлассВредФактE",
+      "modelName": "i-i-s-uchet-medosmotrov3-класс-вред-факт",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "КлассВредФактL",
+      "modelName": "i-i-s-uchet-medosmotrov3-класс-вред-факт",
+      "attrs": [
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-uchet-medosmotrov3-список-на-медосм-e",
+  "editForm": "i-i-s-uchet-medosmotrov3-список-на-медосм-e",
+  "external": false,
+  "caption": "Список на медосм",
+  "name": "IISUchetMedosmotrov3СписокНаМедосмL",
+  "className": "СписокНаМедосмL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-uchet-medosmotrov3-список-на-медосм",
+      "modelProjection": "СписокНаМедосмL"
+    }
+  ]
+}

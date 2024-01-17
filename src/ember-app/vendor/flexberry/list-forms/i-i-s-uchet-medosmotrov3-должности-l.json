@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-uchet-medosmotrov3-должности-e",
+  "editForm": "i-i-s-uchet-medosmotrov3-должности-e",
+  "external": false,
+  "caption": "Должности",
+  "name": "IISUchetMedosmotrov3ДолжностиL",
+  "className": "ДолжностиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-uchet-medosmotrov3-должности",
+      "modelProjection": "ДолжностиL"
+    }
+  ]
+}

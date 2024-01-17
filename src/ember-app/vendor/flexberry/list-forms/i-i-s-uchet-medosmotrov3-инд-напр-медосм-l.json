@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-uchet-medosmotrov3-инд-напр-медосм-e",
+  "editForm": "i-i-s-uchet-medosmotrov3-инд-напр-медосм-e",
+  "external": false,
+  "caption": "Инд напр медосм",
+  "name": "IISUchetMedosmotrov3ИндНапрМедосмL",
+  "className": "ИндНапрМедосмL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-uchet-medosmotrov3-инд-напр-медосм",
+      "modelProjection": "ИндНапрМедосмL"
+    }
+  ]
+}

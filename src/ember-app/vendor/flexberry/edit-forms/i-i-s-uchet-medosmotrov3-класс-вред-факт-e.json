@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Класс вред факт",
+  "name": "IISUchetMedosmotrov3КлассВредФактE",
+  "className": "КлассВредФактE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-uchet-medosmotrov3-класс-вред-факт",
+      "modelProjection": "КлассВредФактE"
+    }
+  ]
+}

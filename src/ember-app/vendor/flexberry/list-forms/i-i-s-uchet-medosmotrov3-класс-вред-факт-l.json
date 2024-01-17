@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-uchet-medosmotrov3-класс-вред-факт-e",
+  "editForm": "i-i-s-uchet-medosmotrov3-класс-вред-факт-e",
+  "external": false,
+  "caption": "Класс вред факт",
+  "name": "IISUchetMedosmotrov3КлассВредФактL",
+  "className": "КлассВредФактL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-uchet-medosmotrov3-класс-вред-факт",
+      "modelProjection": "КлассВредФактL"
+    }
+  ]
+}

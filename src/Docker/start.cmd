@@ -1,0 +1,1 @@
+docker-compose -p uchetmedosmotrov3 up -d

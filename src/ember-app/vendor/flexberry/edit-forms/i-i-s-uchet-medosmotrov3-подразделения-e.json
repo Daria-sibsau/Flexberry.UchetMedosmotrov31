@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Подразделения",
+  "name": "IISUchetMedosmotrov3ПодразделенияE",
+  "className": "ПодразделенияE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-uchet-medosmotrov3-подразделения",
+      "modelProjection": "ПодразделенияE"
+    }
+  ]
+}

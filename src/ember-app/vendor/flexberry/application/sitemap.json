@@ -1,0 +1,95 @@
+﻿{
+  "applicationCaption": "Uchet medosmotrov3",
+  "applicationTitle": "Uchet medosmotrov3",
+  "items": [
+    {
+      "link": null,
+      "menuName": "формирование-списков-для-приказа",
+      "caption": "Формирование списков для приказа",
+      "title": "Формирование списков для приказа",
+      "children": [
+        {
+          "link": "i-i-s-uchet-medosmotrov3-список-на-медосм-l",
+          "menuName": null,
+          "caption": "Список на медосмотр",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "индивидуальные-направления",
+      "caption": "Индивидуальные направления",
+      "title": "Индивидуальные направления",
+      "children": [
+        {
+          "link": "i-i-s-uchet-medosmotrov3-инд-напр-медосм-l",
+          "menuName": null,
+          "caption": "Индивидуальное направление",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "справочная-информация",
+      "caption": "Справочная информация",
+      "title": "Справочная информация",
+      "children": [
+        {
+          "link": "i-i-s-uchet-medosmotrov3-приказ-м-з-р-l",
+          "menuName": null,
+          "caption": "Приказ МЗР",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-uchet-medosmotrov3-класс-вред-факт-l",
+          "menuName": null,
+          "caption": "Классификатор вредных факторов",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "организация-и-штат",
+      "caption": "Организация и штат",
+      "title": "Организация и штат",
+      "children": [
+        {
+          "link": "i-i-s-uchet-medosmotrov3-подразделения-l",
+          "menuName": null,
+          "caption": "Подразделения",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-uchet-medosmotrov3-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-uchet-medosmotrov3-организация-l",
+          "menuName": null,
+          "caption": "Организация",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-uchet-medosmotrov3-должности-l",
+          "menuName": null,
+          "caption": "Должности",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-uchet-medosmotrov3-организация-e",
+  "editForm": "i-i-s-uchet-medosmotrov3-организация-e",
+  "external": false,
+  "caption": "Организация",
+  "name": "IISUchetMedosmotrov3ОрганизацияL",
+  "className": "ОрганизацияL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-uchet-medosmotrov3-организация",
+      "modelProjection": "ОрганизацияL"
+    }
+  ]
+}

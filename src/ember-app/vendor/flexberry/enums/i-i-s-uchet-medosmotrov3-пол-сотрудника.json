@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.UchetMedosmotrov3",
+  "className": "ПолСотрудника",
+  "enumObjects": {
+    "Мужской": "Мужской",
+    "Женский": "Женский"
+  }
+}

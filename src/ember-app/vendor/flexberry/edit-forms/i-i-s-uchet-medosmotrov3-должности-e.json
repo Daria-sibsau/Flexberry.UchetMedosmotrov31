@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Подразделения",
+      "projection": "ПодразделенияL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Должности",
+  "name": "IISUchetMedosmotrov3ДолжностиE",
+  "className": "ДолжностиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-uchet-medosmotrov3-должности",
+      "modelProjection": "ДолжностиE"
+    }
+  ]
+}

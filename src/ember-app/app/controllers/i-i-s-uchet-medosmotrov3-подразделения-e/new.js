@@ -1,0 +1,4 @@
+import IISUchetMedosmotrov3ПодразделенияEController from '../i-i-s-uchet-medosmotrov3-подразделения-e';
+
+var IISUchetMedosmotrov3ПодразделенияENewController = IISUchetMedosmotrov3ПодразделенияEController;
+export default IISUchetMedosmotrov3ПодразделенияENewController;

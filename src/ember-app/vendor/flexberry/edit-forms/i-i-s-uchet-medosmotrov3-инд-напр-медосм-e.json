@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Организация",
+      "projection": "ОрганизацияL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Сотрудники",
+      "projection": "СотрудникиL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "ВреднФактПроиз.КлассВредФакт",
+      "projection": "КлассВредФактL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Инд напр медосм",
+  "name": "IISUchetMedosmotrov3ИндНапрМедосмE",
+  "className": "ИндНапрМедосмE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-uchet-medosmotrov3-инд-напр-медосм",
+      "modelProjection": "ИндНапрМедосмE"
+    }
+  ]
+}

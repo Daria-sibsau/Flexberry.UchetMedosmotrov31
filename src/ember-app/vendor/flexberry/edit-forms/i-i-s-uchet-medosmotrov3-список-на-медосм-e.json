@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "подразделения",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "КонтингентСотр.Подразделения",
+      "projection": "ПодразделенияL",
+      "detailModelName": "i-i-s-uchet-medosmotrov3-контингент-сотр"
+    },
+    {
+      "master": "классВредФакт",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "КонтингентСотр.КлассВредФакт",
+      "projection": "КлассВредФактL",
+      "detailModelName": "i-i-s-uchet-medosmotrov3-контингент-сотр"
+    },
+    {
+      "master": "приказМЗР",
+      "displayAttributeName": "номерПункта",
+      "required": true,
+      "relationName": "КонтингентСотр.ПриказМЗР",
+      "projection": "ПриказМЗРL",
+      "detailModelName": "i-i-s-uchet-medosmotrov3-контингент-сотр"
+    }
+  ],
+  "external": false,
+  "caption": "Список на медосм",
+  "name": "IISUchetMedosmotrov3СписокНаМедосмE",
+  "className": "СписокНаМедосмE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-uchet-medosmotrov3-список-на-медосм",
+      "modelProjection": "СписокНаМедосмE"
+    }
+  ]
+}

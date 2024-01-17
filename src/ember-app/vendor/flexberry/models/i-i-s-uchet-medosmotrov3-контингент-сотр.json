@@ -1,0 +1,193 @@
+﻿{
+  "name": "IISUchetMedosmotrov3КонтингентСотр",
+  "modelName": "i-i-s-uchet-medosmotrov3-контингент-сотр",
+  "className": "КонтингентСотр",
+  "nameSpace": "IIS.UchetMedosmotrov3",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "всего",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "до21Года",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "женщины",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "мужчины",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "периодичность",
+      "type": "i-i-s-uchet-medosmotrov3-период",
+      "flexberryType": "Период",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "классВредФакт",
+      "relatedTo": "i-i-s-uchet-medosmotrov3-класс-вред-факт",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "подразделения",
+      "relatedTo": "i-i-s-uchet-medosmotrov3-подразделения",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "приказМЗР",
+      "relatedTo": "i-i-s-uchet-medosmotrov3-приказ-м-з-р",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "списокНаМедосм",
+      "relatedTo": "i-i-s-uchet-medosmotrov3-список-на-медосм",
+      "inverse": "контингентСотр"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КонтингентСотрE",
+      "modelName": "i-i-s-uchet-medosmotrov3-контингент-сотр",
+      "attrs": [
+        {
+          "name": "мужчины",
+          "caption": "Мужчины",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "женщины",
+          "caption": "Женщины",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "до21Года",
+          "caption": "До21 года",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "всего",
+          "caption": "Всего",
+          "hidden": false,
+          "index": 5
+        },
+        {
+          "name": "периодичность",
+          "caption": "Периодичность",
+          "hidden": false,
+          "index": 10
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "Подразделения",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Подразделение",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Подразделения",
+          "name": "подразделения",
+          "relatedTo": "i-i-s-uchet-medosmotrov3-подразделения",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "КлассВредФакт",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "наименование",
+              "caption": "Фактор производства",
+              "hidden": true,
+              "index": 7
+            }
+          ],
+          "index": 6,
+          "type": "standard",
+          "caption": "Фактор производства",
+          "name": "классВредФакт",
+          "relatedTo": "i-i-s-uchet-medosmotrov3-класс-вред-факт",
+          "inverse": null
+        },
+        {
+          "lookupValue": "НомерПункта",
+          "lookupValueField": "номерПункта",
+          "relationName": "ПриказМЗР",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номерПункта",
+              "caption": "Номер пункта",
+              "hidden": true,
+              "index": 9
+            }
+          ],
+          "index": 8,
+          "type": "standard",
+          "caption": "Приказ МЗР",
+          "name": "приказМЗР",
+          "relatedTo": "i-i-s-uchet-medosmotrov3-приказ-м-з-р",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

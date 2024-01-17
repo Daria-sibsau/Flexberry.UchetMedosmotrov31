@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UchetMedosmotrov3.Objects", "Objects/UchetMedosmotrov3.Objects.csproj", "{214A69FD-92CC-4371-916C-F89C7BCFD370}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UchetMedosmotrov3.ODataBackend", "ODataBackend/UchetMedosmotrov3.ODataBackend.csproj", "{73BF39DD-5F1E-4717-AEE5-DABA9AFD2819}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{214A69FD-92CC-4371-916C-F89C7BCFD370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214A69FD-92CC-4371-916C-F89C7BCFD370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214A69FD-92CC-4371-916C-F89C7BCFD370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214A69FD-92CC-4371-916C-F89C7BCFD370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73BF39DD-5F1E-4717-AEE5-DABA9AFD2819}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73BF39DD-5F1E-4717-AEE5-DABA9AFD2819}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73BF39DD-5F1E-4717-AEE5-DABA9AFD2819}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73BF39DD-5F1E-4717-AEE5-DABA9AFD2819}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
